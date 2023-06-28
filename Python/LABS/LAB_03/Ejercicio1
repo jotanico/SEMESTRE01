@@ -1,0 +1,23 @@
+#Guardar la información de la tabla en un diccionario, luego imprimir el diccionario
+
+Dato1 = 14, "Los Rios", 18.490, 404.432
+Dato2 = 12, "Magallanes", 1382291, 166.533
+
+print(Dato1)
+print(Dato2)
+
+#Crear una nueva clave al diccionario llamada “Densidad”. La densidad poblacional se
+#calcula de la siguiente forma: (Densidad = Habitantes/Superficie). Solamente debe
+#tener 1 decimal la salida del resultado.
+
+densidad1 = (404.432
+/ 18.429)
+Dato1.append(densidad1)
+print(Dato1)
+
+densidad2 = Dato2[-1]/ Dato2[2]
+Dato2.append(densidad2)
+print(Dato2)
+
+# Agregar otra clave llamada “Capital”, correspondiente a la capital de cada región
+
